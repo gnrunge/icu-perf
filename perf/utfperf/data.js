@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643846154907,
+  "lastUpdate": 1644016994067,
   "repoUrl": "https://github.com/gnrunge/icu",
   "entries": {
     "Benchmark": [
@@ -2350,6 +2350,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "FromUTF8",
             "value": 3.2849,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "distinct": true,
+          "id": "d398b6aceae99c1145273cd8a2631d9e7a524a3a",
+          "message": "Clean up test and test framework code. Leave verbose mode in test framework\n(uperf.cpp).",
+          "timestamp": "2022-02-04T14:50:38-08:00",
+          "tree_id": "77159ac397d6d93e42072290bd4a063be9dc4491",
+          "url": "https://github.com/gnrunge/icu/commit/d398b6aceae99c1145273cd8a2631d9e7a524a3a"
+        },
+        "date": 1644016992919,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Roundtrip",
+            "value": 13.2278,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUnicode",
+            "value": 5.076,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUTF8",
+            "value": 3.2502,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
