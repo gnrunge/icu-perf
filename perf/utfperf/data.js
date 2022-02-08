@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644264960120,
+  "lastUpdate": 1644350264288,
   "repoUrl": "https://github.com/gnrunge/icu",
   "entries": {
     "Benchmark": [
@@ -2434,6 +2434,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "FromUTF8",
             "value": 3.5316,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "distinct": true,
+          "id": "5aca056f6c8ac27d0b671bfa52d895e4f7578d5e",
+          "message": "Test events output.",
+          "timestamp": "2022-02-08T11:16:31-08:00",
+          "tree_id": "27cfa60a520cbe5875aa1c3484400662eb702e3a",
+          "url": "https://github.com/gnrunge/icu/commit/5aca056f6c8ac27d0b671bfa52d895e4f7578d5e"
+        },
+        "date": 1644350262298,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Roundtrip",
+            "value": 13.3693,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUnicode",
+            "value": 5.026,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUTF8",
+            "value": 3.293,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
