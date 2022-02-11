@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644609470749,
+  "lastUpdate": 1644619992474,
   "repoUrl": "https://github.com/gnrunge/icu",
   "entries": {
     "Benchmark": [
@@ -2602,6 +2602,132 @@ window.BENCHMARK_DATA = {
           {
             "name": "FromUTF8",
             "value": 3.2544,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41129501+gnrunge@users.noreply.github.com",
+            "name": "Norbert Runge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b8362a3733d443088de2d7ed0ab1cc5074af01e",
+          "message": "Merge pull request #5 from gnrunge/cb3\n\nAdds prerequisit to publishing step.",
+          "timestamp": "2022-02-11T13:14:36-08:00",
+          "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
+          "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
+        },
+        "date": 1644614594644,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Roundtrip",
+            "value": 11.5277,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUnicode",
+            "value": 3.6942,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUTF8",
+            "value": 2.2863,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41129501+gnrunge@users.noreply.github.com",
+            "name": "Norbert Runge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa13fb04759ecc3ebf2dd58d594447d748913208",
+          "message": "Merge pull request #6 from gnrunge/cb3\n\nIncrease perf failure threshold.",
+          "timestamp": "2022-02-11T14:03:18-08:00",
+          "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
+          "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
+        },
+        "date": 1644617603214,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Roundtrip",
+            "value": 14.4159,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUnicode",
+            "value": 5.4556,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUTF8",
+            "value": 3.7083,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41129501+gnrunge@users.noreply.github.com",
+            "name": "Norbert Runge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a48ddc0c9e673a66144d9f2122b8093b3c05bdf",
+          "message": "Merge pull request #7 from gnrunge/cb3\n\nSort out output data subdirectories.",
+          "timestamp": "2022-02-11T14:41:47-08:00",
+          "tree_id": "dfc8b0eee085e9adc7a54ef5242d362811b0f06f",
+          "url": "https://github.com/gnrunge/icu/commit/7a48ddc0c9e673a66144d9f2122b8093b3c05bdf"
+        },
+        "date": 1644619991232,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Roundtrip",
+            "value": 16.5277,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUnicode",
+            "value": 6.2773,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUTF8",
+            "value": 4.0719,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1644618108531,
+  "lastUpdate": 1644618415931,
   "repoUrl": "https://github.com/gnrunge/icu",
   "entries": {
     "Benchmark": [
@@ -22,36 +22,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609571587,
+        "date": 1644610006516,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 304.6285,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 18.7288,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 11889466.0569,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 14.2652,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2523116.9088,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 14.2725,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 11332262.7073,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 14.9677,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2669394.1121,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 16.001,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 16.0025,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -76,36 +82,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609584633,
+        "date": 1644610026933,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 329.7661,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 19.6136,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 29233708.2869,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 19.6876,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 6932609.2416,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 21.9424,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 28537420.1261,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 19.4263,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 7935481.6184,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 19.382,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 26.3387,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -130,36 +142,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609593737,
+        "date": 1644610028939,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 299.6515,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 6.594,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 25906303.1661,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 6.153,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 6352119.4087,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 6.1887,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 25211247.8823,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 5.7974,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 6896188.692,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 5.8624,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 5.8484,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -184,36 +202,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609594316,
+        "date": 1644610031930,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 210.4935,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 18.0208,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 11428196.8612,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 12.472,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2550527.7562,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 12.4617,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 10818668.9341,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 13.6221,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2625379.6437,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 14.8237,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 14.8086,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -238,36 +262,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609636964,
+        "date": 1644610034311,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 360.8991,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 20.9324,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 30437399.5273,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 14.2686,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 7463022.9129,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 14.4012,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 30395843.2619,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 15.6755,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 8575197.118,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 17.0889,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 16.9824,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -292,36 +322,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609644237,
+        "date": 1644610038820,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 373.2535,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 21.5779,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 3917139.5381,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 14.9829,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 1659383.1668,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 14.9621,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 3753316.7108,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 16.3851,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 1695487.1739,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 17.781,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 17.7596,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -346,36 +382,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609654385,
+        "date": 1644610063332,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 345.7838,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 18.1942,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 89344055.0024,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 25.9685,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 16272248.0708,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 25.8865,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 84213175.9439,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 13.5028,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 17507865.162,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 42.6396,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 42.1764,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -400,36 +442,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609668963,
+        "date": 1644610083117,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 728.0596,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 13.6437,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 784580.7345,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 8.15,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 217300.94,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 8.0103,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 708917.5079,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 9.2903,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 198734.0985,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 9.7649,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 10.0693,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -454,36 +502,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609698627,
+        "date": 1644610088818,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 470.2113,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 8.5087,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 53973352.5161,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 6.6276,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 20934724.3621,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 7.4039,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 55409518.9783,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 7.1264,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 22620444.346,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 6.846,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 9.8031,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -508,36 +562,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609806052,
+        "date": 1644610148366,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 525.554,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 10.9918,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 74913451.7485,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 10.9463,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 20359999.9639,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 11.0363,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 74048599.83,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 10.9346,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 22336741.2885,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 10.9714,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 10.9258,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -562,36 +622,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609827610,
+        "date": 1644610192914,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 276.987,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 8.3294,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 14897111.5842,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 8.3227,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 3181154.4858,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 8.3783,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 14998705.6142,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 9.6559,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 3395554.4982,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 9.6507,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 9.7261,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -616,36 +682,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609898629,
+        "date": 1644610208542,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 2389.3367,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 27.4906,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 1079935.9915,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 27.4538,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 397985.5384,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 29.4023,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 865603.1289,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 26.3815,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 380094.4549,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 25.8349,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 33.0676,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -670,36 +742,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609900738,
+        "date": 1644610215005,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 533.0482,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 21.6662,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 16730751.7673,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 21.6613,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2513215.8187,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 21.5921,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 15756123.0897,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 21.8861,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2634675.4289,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 21.8907,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 21.817,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -724,36 +802,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609906511,
+        "date": 1644610278811,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 1077.1527,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 2.9442,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 3924462.7897,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 2.94,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 1631463.1092,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 2.9423,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 3718575.325,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 2.6247,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 1679217.8701,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 2.6131,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 2.5946,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -778,36 +862,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "ac3213aead4bf1bbb2644b171e5d21d75dc37a03",
           "url": "https://github.com/gnrunge/icu/commit/a9e9e3c7447ebcb12e7cf55be210607c93af3b0a"
         },
-        "date": 1644609922631,
+        "date": 1644610291253,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 289.6456,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 5.2478,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 34647633.9525,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 5.2296,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 4616313.673,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 5.2349,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 34242469.9238,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 5.0313,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 4942911.0118,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 5.0103,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 5.0341,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -832,36 +922,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614719896,
+        "date": 1644615137518,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 284.1695,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 18.7305,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 10036590.9663,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 14.2605,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2156223.585,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 14.2666,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 10921568.6672,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 14.9664,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2510223.697,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 16.0044,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 15.9998,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -886,36 +982,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614728570,
+        "date": 1644615142652,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 177.5498,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 17.9169,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 9683078.9824,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 11.095,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2150527.1079,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 11.1012,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 9170297.7816,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 12.0994,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2221447.5225,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 13.1961,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 13.1929,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -940,36 +1042,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614745927,
+        "date": 1644615144943,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 286.4829,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 25.365,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 26118220.781,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 25.5017,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 7150189.1512,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 26.8579,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 24936064.5971,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 24.0256,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 7714173.193,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 24.909,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 32.3261,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -994,36 +1102,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614748888,
+        "date": 1644615152476,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 297.8278,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 17.9382,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 26248427.4412,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 12.4746,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 6400766.7971,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 12.4624,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 25586470.7146,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 13.6142,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 7082034.3618,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 14.8299,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 14.8119,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1048,36 +1162,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614754678,
+        "date": 1644615165267,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 414.1296,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 21.5613,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 4261299.1657,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 14.9838,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 1842701.7428,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 14.9626,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 4110313.6306,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 16.3393,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 1868047.0142,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 17.8056,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 17.7793,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1102,36 +1222,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614773509,
+        "date": 1644615170378,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 376.5559,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 6.5848,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 33054400.1137,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 6.1516,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 7832264.239,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 6.1883,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 33477654.9504,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 5.8011,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 9087715.038,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 5.86,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 5.8512,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1156,36 +1282,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614794082,
+        "date": 1644615178071,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 297.3568,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 15.5384,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 81778455.9531,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 22.2763,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 15163446.6876,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 22.2689,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 77478109.8441,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 11.6069,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 16530127.3901,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 36.0853,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 36.062,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1210,36 +1342,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614822478,
+        "date": 1644615219607,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 774.9019,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 7.7769,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 810715.905,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 6.2772,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 226548.9654,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 6.6681,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 757966.8731,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 6.5595,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 218433.9805,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 6.7432,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 9.1063,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1264,36 +1402,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614868193,
+        "date": 1644615224081,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 545.2044,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 13.0209,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 62612756.8981,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 7.7181,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 23702979.6869,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 7.7024,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 63964370.0499,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 8.7212,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 26759675.0952,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 9.587,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 9.6806,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1318,36 +1462,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614877238,
+        "date": 1644615248880,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 486.081,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 10.5485,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 77132368.0878,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 10.5948,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 22346387.4393,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 10.5669,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 72177410.1257,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 11.3086,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 23762107.477,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 11.2769,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 11.4739,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1372,36 +1522,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614924012,
+        "date": 1644615254944,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 184.2611,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 7.7016,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 10077085.3987,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 7.691,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2272867.5405,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 7.7247,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 10761365.3991,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 7.3141,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2627691.3674,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 7.2963,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 7.3628,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1426,36 +1582,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644614985388,
+        "date": 1644615311581,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 528.7695,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 19.6679,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 17282235.9535,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 19.6681,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2825242.0793,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 21.1395,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 16086149.6894,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 21.5295,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2942665.418,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 21.5108,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 27.7529,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1480,36 +1642,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644615047773,
+        "date": 1644615315105,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 2391.325,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 17.3519,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 1081962.0118,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 17.3484,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 397848.461,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 17.2879,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 870525.9407,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 17.5082,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 379878.3355,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 17.5086,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 17.4365,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1534,36 +1702,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644615067058,
+        "date": 1644615390347,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 290.4485,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 3.7324,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 35382310.5494,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 3.7782,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 4786321.6976,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 3.7376,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 33686190.8436,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 4.0378,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 5264282.944,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 4.0361,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 4.0055,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1588,36 +1762,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "391e7bcf1741b551d32e6c254b16d54895ab34be",
           "url": "https://github.com/gnrunge/icu/commit/0b8362a3733d443088de2d7ed0ab1cc5074af01e"
         },
-        "date": 1644615085081,
+        "date": 1644615441408,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 979.1715,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 3.5233,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 3524671.917,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 3.5082,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 1476391.4141,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 3.5031,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 3480930.2798,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 3.137,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 1620135.3565,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 3.0957,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 3.1016,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1642,36 +1822,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617726847,
+        "date": 1644618157962,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 318.4027,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 22.2521,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 12661965.8519,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 22.255,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2728813.6723,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 23.968,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 12247227.1532,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 21.4659,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2787688.8707,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 21.4595,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 27.8808,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1696,36 +1882,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617728130,
+        "date": 1644618158455,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 183.4091,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 17.988,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 10071002.2206,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 12.4738,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2235260.6938,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 12.4677,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 9447236.264,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 13.6171,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2313001.9506,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 14.8044,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 14.7899,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1750,36 +1942,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617748554,
+        "date": 1644618157709,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 372.104,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 21.3979,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 32735995.1095,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 14.8436,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 7958059.9262,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 14.9865,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 31888998.8435,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 16.3251,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 8759655.7758,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 17.5034,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 17.5564,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1804,36 +2002,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617761327,
+        "date": 1644618161900,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 288.4961,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 21.81,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 26308206.8017,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 16.4594,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 7130302.4457,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 16.445,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 25724719.0218,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 17.4206,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 7772301.618,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 18.5872,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 18.6548,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1858,36 +2062,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617765162,
+        "date": 1644618162830,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 780.5078,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 15.4575,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 812103.8925,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 23.1513,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 226406.7991,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 22.8835,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 760200.3815,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 12.0814,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 218945.0987,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 36.6683,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 36.5295,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1912,36 +2122,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617768432,
+        "date": 1644618180322,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 373.8455,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 21.3077,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 3905802.1017,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 14.3959,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 1662515.961,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 14.4026,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 3744772.2656,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 15.897,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 1695663.7631,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 17.2949,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 17.2986,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -1966,36 +2182,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617772990,
+        "date": 1644618182643,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 296.5758,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 6.5207,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 80331492.0456,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 5.2343,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 14718895.0179,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 5.5862,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 76214388.0129,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 5.5221,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 15885335.1253,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 5.7134,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 7.7419,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -2020,36 +2242,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617776278,
+        "date": 1644618214435,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 364.2824,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 7.7407,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 30601865.6748,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 7.2211,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 7470280.2105,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 7.2732,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 30331874.9845,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 6.7926,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 8183243.0501,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 6.8388,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 6.8614,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -2074,36 +2302,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617806585,
+        "date": 1644618249895,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 487.9843,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 14.6262,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 49298062.7366,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 8.6394,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 20292431.9676,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 8.6233,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 57782039.2504,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 9.7783,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 25031951.3146,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 10.8484,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 10.8599,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -2128,36 +2362,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617945995,
+        "date": 1644618277017,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 454.3347,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 10.4907,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 65930488.7821,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 10.4708,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 17921809.4001,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 10.5083,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 65750016.1065,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 9.9812,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 20470224.6884,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 9.9537,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 10.024,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -2182,36 +2422,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644617995042,
+        "date": 1644618322906,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 236.5132,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 25.7351,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 12602018.169,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 24.5167,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 2709186.6765,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 26.2555,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 11957352.8116,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 24.4518,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 2889584.4479,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 24.0127,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 30.6782,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -2236,36 +2482,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644618026725,
+        "date": 1644618376966,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 247.5967,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 9.4856,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 29814078.0131,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 9.488,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 4132023.8473,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 9.5409,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 28945132.9105,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 9.6925,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 4359914.4858,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 9.6905,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 9.7474,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -2290,36 +2542,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644618051463,
+        "date": 1644618384271,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 2283.2304,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 4.8267,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 1101912.7333,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 4.8136,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 386262.3264,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 4.8384,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 888015.8826,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 4.7836,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 379611.8832,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 4.7358,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 4.6759,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -2344,36 +2602,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644618070727,
+        "date": 1644618401195,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 664.8951,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 2.954,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 20779947.3587,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 2.9489,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 3000787.8335,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 2.9428,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 18889825.4955,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 2.6232,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 3158223.8533,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 2.612,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 2.5921,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
@@ -2398,36 +2662,42 @@ window.BENCHMARK_DATA = {
           "tree_id": "a62d95efa0499256e6f1bdec0a567812d1576c63",
           "url": "https://github.com/gnrunge/icu/commit/aa13fb04759ecc3ebf2dd58d594447d748913208"
         },
-        "date": 1644618106494,
+        "date": 1644618414173,
         "tool": "ndjson",
         "benches": [
           {
-            "name": "TestIcu_KeyGen_null",
-            "value": 1164.688,
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 17.4598,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_strcoll_null",
-            "value": 4208935.0036,
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 17.4415,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_qsort_usekey",
-            "value": 1739345.4605,
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 17.5943,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_strcoll_null",
-            "value": 4123384.1205,
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 17.6603,
             "unit": "ns/iter",
             "biggerIsBetter": false
           },
           {
-            "name": "TestIcu_BinarySearch_usekey",
-            "value": 1904264.9082,
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 17.8116,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 17.8917,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
