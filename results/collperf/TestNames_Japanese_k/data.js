@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645053655728,
+  "lastUpdate": 1645060157324,
   "repoUrl": "https://github.com/gnrunge/icu",
   "entries": {
     "Benchmark": [
@@ -376,6 +376,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestIcu_BinarySearch_usekey",
             "value": 6463778.3771,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41129501+gnrunge@users.noreply.github.com",
+            "name": "Norbert Runge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e7e7bc559e4e6579c170480c2f3d7ae0b4ba83b",
+          "message": "Merge pull request #16 from gnrunge/cb3\n\nCleanup.",
+          "timestamp": "2022-02-16T16:57:14-08:00",
+          "tree_id": "2790ec7409ac21ee73c36d525d7346a0624e26fd",
+          "url": "https://github.com/gnrunge/icu/commit/0e7e7bc559e4e6579c170480c2f3d7ae0b4ba83b"
+        },
+        "date": 1645060155881,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestIcu_KeyGen_null",
+            "value": 318.9624,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_qsort_strcoll_null",
+            "value": 28319443.3285,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_qsort_usekey",
+            "value": 6834152.3541,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_BinarySearch_strcoll_null",
+            "value": 29045726.4322,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_BinarySearch_usekey",
+            "value": 8237278.3066,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }

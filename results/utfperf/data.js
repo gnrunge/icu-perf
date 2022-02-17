@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645053558911,
+  "lastUpdate": 1645060036414,
   "repoUrl": "https://github.com/gnrunge/icu",
   "entries": {
     "Benchmark": [
@@ -292,6 +292,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "FromUTF8",
             "value": 3.2482,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41129501+gnrunge@users.noreply.github.com",
+            "name": "Norbert Runge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e7e7bc559e4e6579c170480c2f3d7ae0b4ba83b",
+          "message": "Merge pull request #16 from gnrunge/cb3\n\nCleanup.",
+          "timestamp": "2022-02-16T16:57:14-08:00",
+          "tree_id": "2790ec7409ac21ee73c36d525d7346a0624e26fd",
+          "url": "https://github.com/gnrunge/icu/commit/0e7e7bc559e4e6579c170480c2f3d7ae0b4ba83b"
+        },
+        "date": 1645060033879,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Roundtrip",
+            "value": 13.2258,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUnicode",
+            "value": 5.0674,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUTF8",
+            "value": 3.2527,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
