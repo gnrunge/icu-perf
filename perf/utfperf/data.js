@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652389656427,
+  "lastUpdate": 1652393797737,
   "repoUrl": "https://github.com/gnrunge/icu",
   "entries": {
     "Benchmark": [
@@ -586,6 +586,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "FromUTF8",
             "value": 3.3219,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "distinct": true,
+          "id": "091c74794de30149232a8fe507b6bc5574b92af9",
+          "message": "Don't delete existing files (README.md in this case).",
+          "timestamp": "2022-05-12T15:06:13-07:00",
+          "tree_id": "32bdc5ed64b0d05434502cfba1f7981e2ada9240",
+          "url": "https://github.com/gnrunge/icu/commit/091c74794de30149232a8fe507b6bc5574b92af9"
+        },
+        "date": 1652393796767,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Roundtrip",
+            "value": 13.1728,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUnicode",
+            "value": 5.0406,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUTF8",
+            "value": 3.2587,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
