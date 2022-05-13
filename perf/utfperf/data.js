@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1652393797737,
+  "lastUpdate": 1652464112322,
   "repoUrl": "https://github.com/gnrunge/icu",
   "entries": {
     "Benchmark": [
@@ -628,6 +628,48 @@ window.BENCHMARK_DATA = {
           {
             "name": "FromUTF8",
             "value": 3.2587,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "committer": {
+            "email": "nrunge@google.com",
+            "name": "gnrunge",
+            "username": "gnrunge"
+          },
+          "distinct": true,
+          "id": "0a5abc7a7ec228fc9a6551f6ffdb92ed36565510",
+          "message": "Adds STD C library function for calibration purpose.",
+          "timestamp": "2022-05-13T09:55:58-07:00",
+          "tree_id": "89cf78cbf5e789ad6de372802f1424839cd48131",
+          "url": "https://github.com/gnrunge/icu/commit/0a5abc7a7ec228fc9a6551f6ffdb92ed36565510"
+        },
+        "date": 1652464110937,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "Roundtrip",
+            "value": 13.177,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUnicode",
+            "value": 5.0681,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "FromUTF8",
+            "value": 3.2544,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
